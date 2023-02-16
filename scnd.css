@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@300;400;500;600&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+}
+.head1{
+    width: 10%;
+    height: 100px;
+    
+}
+.head1 img{
+    width: 70%;
+    padding: 30px;
+}
+.head2{
+    width: 60%;
+    height: 100px;
+   
+}
+.head2 ul {
+    display:inline-flex;
+    list-style-type: none;
+    color:rgb(255, 255, 255);
+}
+.head2 ul li{
+    width:76px;
+    margin: 16px;
+    padding: 15px;
+    font-size: larger;
+    font-weight:bolder;
+
+    
+}
+.head2 ul li:hover{
+    color: rgb(132, 200, 132);
+}
+.head3{
+    width: 30%;
+    height: 100px;
+    display: flex;
+   
+
+}
+.sign{
+    padding-top: 25px;
+    padding-left: 80px;
+
+}
+.sign h3{
+    color:rgb(255, 255, 255);
+}
+.sign h3:hover{
+    color: rgb(132, 200, 132);
+}
+.up{
+    padding-top: 45px;
+    padding-left: 30px;
+}
+.up input{
+    width: 100px;
+    height: 35px;
+    font-size: 18px;
+    background: blue;
+    border-color: #fff;
+    color: rgb(255, 255, 255);;
+}
+.up input:hover{
+    background-color: orange;
+}
+.img1{
+    width: 25%;
+    height: 100px;
+}
+.img1 img{
+    width: 30%;
+    margin: 10%;
+    margin-top: 35%;
+    margin-left: 100%;
+}
+.hero{
+    background:blue;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.center{
+    background-color: ;
+    width: 70%;
+    height: 600px;
+
+
+    
+}
+.center h1{
+    color: rgb(255, 255, 255);
+    font-size: 60px;
+   text-align: center;
+    font-family:'Lato '; 
+}
+.center input{
+    width: 29%;
+    height: 85px;
+    margin-left: 369px;
+    font-size: 18px;
+    background: orange;
+    border-color: #fff;
+    font-weight: bold;
+    font-family: 'Lato';
+}
+.center input:hover{
+    background: rgb(194, 135, 135);
+}
+
+
+.center h3{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lato';
+}
+.center2{
+    width: 10%;
+}
